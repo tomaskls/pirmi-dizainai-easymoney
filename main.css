@@ -3,11 +3,25 @@ body {
     margin: 0;
 }
 
-header,
-main>section:nth-child(1),
-main>section:nth-child(2){
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.logo{
+    height: 30px;
+}
+.person{
+    height: 350px;
+    width: 450px;
+}
+
+
+.trio{
     display: inline-block;
     width: 800px;
+    height: 50px;
     margin-left: calc(50% - 400px);
     
 
