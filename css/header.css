@@ -1,28 +1,28 @@
-header.container {
+.main-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-top: 60px;
 }
-.logo {
+.main-header .logo {
     height: 30px;
 }
-.main-nav {
+.main-header .main-nav {
     display: flex;
     gap: 30px;
 }
-.link {
+.main-header .link {
     font-size: 20px;
     line-height: 1em;
     text-decoration: none;
     color: grey;
 }
-.link:hover {
+.main-header .link:hover {
     color: black;
     text-decoration: underline;
 }
-.link.active {
+.main-header .link.active {
     color: black;
     text-decoration: none;
 }

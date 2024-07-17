@@ -1,0 +1,41 @@
+.trio-list{
+    display: flex;
+    gap: 30px;
+
+}
+.trio-list .trio{
+    background-color: #E9F3FF;
+    padding: 20px;
+    border-radius: 20px;
+    width: 150px;
+}
+.trio-list .trio:nth-child(2){
+background-color: #FAEFF6;
+}
+.trio-list .trio:nth-child(3){
+background-color: #F2ECFF;
+}
+
+.trio-list .img{
+    display: block;
+    width: 100%;
+    height: 50px;
+    object-fit: contain;
+    object-position: left;
+
+}
+.trio-list .title{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.trio-list .description{
+    font-size: 17px;
+    color: #799DE5;
+}
+.trio-list .trio:nth-last-child(2) .description{
+    color: #FA98C9;
+}
+.trio-list .trio:nth-last-child(3) .description{
+     color: #8987F7;
+}
