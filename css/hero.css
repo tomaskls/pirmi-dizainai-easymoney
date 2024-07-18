@@ -1,5 +1,10 @@
+.hero{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+
+}
 .hero .texts {
-    float: left;
     width: 35%;
 }
 .hero .badge {
@@ -22,12 +27,24 @@
 .hero .main-title > span {
     color: blue;
 }
+.hero .main-title:hover .crazy{
+    display: inline-block;
+    color: red;
+    border: 5px solid red;
+    transform: rotate(-30deg);
+    
+}
 .hero .description {
     font-size: 18px;
     color: grey;
 }
 
 .hero .hero-img {
-    float: right;
-    width: 55%;
+      width: 55%;
+}
+.red{
+ background-color: red;
+    height: 50px;
+    width: 50px;
+    position:absolute;
 }
