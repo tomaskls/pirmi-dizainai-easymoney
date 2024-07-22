@@ -3,6 +3,12 @@ body {
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
         sans-serif;
+        background: linear-gradient(
+            65deg,
+            red 0%,
+            white 20%, 
+            white 80%,
+            blue 100%);
 }
 
 .container {
@@ -27,4 +33,18 @@ body {
     margin-top: 60px;
     justify-content: space-between;
     align-items: center;
+}
+.main-footer .socials{
+    display: flex;
+    gap: 5px;
+}
+.main-footer .socials>a{
+    padding: 10px;
+    text-decoration:none;
+    font-size: 20px;
+    color: blue;
+}
+.main-footer .socials>a:hover{
+    color: aliceblue;
+    background-color: blue;
 }

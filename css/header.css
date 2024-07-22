@@ -26,3 +26,16 @@
     color: black;
     text-decoration: none;
 }
+.link{
+    position: relative;
+}
+.dot{
+    content: '';
+    background-color: blue;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -15px;
+    left: 15px;
+}
